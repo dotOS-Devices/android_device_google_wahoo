@@ -1,6 +1,20 @@
-[
-   {
-     "repository": "android_kernel_google_wahoo",
-     "target_path": "kernel/google/wahoo"
-   }
+[{
+		"repository": "android_kernel_google_wahoo",
+		"target_path": "kernel/google/wahoo"
+	},
+	{
+		"repository": "hardware_qcom_audio-caf_msm8998",
+		"target_path": "hardware/qcom-caf/msm8998-wahoo/audio",
+		"branch": "dot11-wahoo"
+	},
+	{
+		"repository": "hardware_qcom_display-caf_msm8998",
+		"target_path": "hardware/qcom-caf/msm8998-wahoo/display",
+		"branch": "dot11-wahoo"
+	},
+	{
+		"repository": "hardware_qcom_media-caf_msm8998",
+		"target_path": "hardware/qcom-caf/msm8998-wahoo/media",
+		"branch": "dot11-wahoo"
+	}
 ]

@@ -17,6 +17,8 @@
 COMMON_PATH := device/google/wahoo
 
 TARGET_BOARD_PLATFORM := msm8998
+# Override hals
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8998-wahoo
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a

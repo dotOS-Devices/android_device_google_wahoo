@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"repository": "android_kernel_google_wahoo",
 		"target_path": "kernel/google/wahoo"
 	},
@@ -16,5 +17,11 @@
 		"repository": "hardware_qcom_media-caf_msm8998",
 		"target_path": "hardware/qcom-caf/msm8998-wahoo/media",
 		"branch": "dot11-wahoo"
+	},
+	{
+		"remote": "github",
+		"repository": "LineageOS/android_packages_apps_ElmyraService",
+		"target_path": "packages/apps/ElmyraService",
+		"branch": "lineage-18.1"
 	}
 ]
